@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "skycastle"
-version = "0.1.4"
+version = "0.1.5"
 description = "A command-line text adventure where a young boy explores a fantastical, cloud-borne castle to find his lost father."
 authors = ["mindfilleter"]
 license = "MIT"
@@ -19,4 +19,4 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-skycastle = "src.skycastle.__main__:main"
+skycastle = "skycastle.__main__:main"

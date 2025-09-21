@@ -128,7 +128,7 @@ def game_loop(game_state: GameState):
     else:
         ui.print_colored("\nExiting Sky Castle. See you next time!", ui.Fore.LIGHTGREEN_EX)
         if not ui._ENABLE_COLOR: # In test mode, exit cleanly if we're not winning but quitting
-            sys.exit(0)
+            return False
 
 
 def main():
@@ -170,16 +170,18 @@ def main():
 
             if choice == '1': # New Game
                 game_state = new_game()
-                game_loop(game_state)
+                if not game_loop(game_state):
+                    break
             elif choice == '2': # Load Game
                 game_state = load_previous_game()
                 if game_state:
-                    game_loop(game_state)
+                    if not game_loop(game_state):
+                        break
             elif choice == '3': # Delete Game
                 delete_save_game()
             elif choice == '4': # Quit (now option 4)
                 ui.print_colored("Thank you for playing Sky Castle!", ui.Fore.LIGHTGREEN_EX, Style.BRIGHT)
-                sys.exit(0)
+                break
             else:
                 ui.print_colored("Invalid option. Please enter 1, 2, 3, or 4.", ui.Fore.RED)
     
