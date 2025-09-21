@@ -3,9 +3,9 @@
 from typing import List
 
 # Relative imports for GameState
-from ..gamestate import GameState
+from skycastle.gamestate import GameState
 # Relative import for UI functions
-from .. import ui
+from skycastle import ui
 # No need to import Fore or Style here; they are accessed via ui.Fore/ui.Style
 # from colorama import Fore, Style # REMOVED: Not needed here
 

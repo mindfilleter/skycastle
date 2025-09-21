@@ -1,3 +1,4 @@
+
 # skycastle/__main__.py
 
 import sys
@@ -8,10 +9,10 @@ from typing import Optional, TextIO
 from colorama import Style, Fore # Fore imported for direct styling in menu
 
 # Import modules we've created
-from .gamestate import GameState, create_game_state_from_data
-from .save_manager import save_game, load_game, list_saves, delete_game
-from . import ui         # UI functions
-from .game_commands import main_handler as commands # Main command handler
+from skycastle.gamestate import GameState, create_game_state_from_data
+from skycastle.save_manager import save_game, load_game, list_saves, delete_game
+from skycastle import ui         # UI functions
+from skycastle.game_commands import main_handler as commands # Main command handler
 
 def new_game() -> GameState:
     """Starts a new game, initializing the GameState and displaying intro."""

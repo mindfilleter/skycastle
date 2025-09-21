@@ -4,9 +4,9 @@ from typing import List, Optional
 from collections import defaultdict # Used for grouping items
 
 # CORRECTED: Changed '.' to '..' for correct relative import to gamestate.py
-from ..gamestate import GameState, Item
+from skycastle.gamestate import GameState, Item
 
-from .. import ui # Relative import for UI functions
+from skycastle import ui # Relative import for UI functions
 
 def _get_item_by_name(item_name: str, item_list: List[Item]) -> Optional[Item]:
     """Helper to find an item by its normalized name in a list."""

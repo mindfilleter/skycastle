@@ -9,7 +9,7 @@ from collections import defaultdict
 from colorama import init, Fore, Style
 
 # Import specific dataclasses from gamestate for type hinting
-from .gamestate import Item, Exit # CORRECTED: Ensure these are correctly imported
+from skycastle.gamestate import Item, Exit # CORRECTED: Ensure these are correctly imported
 
 # Initialize colorama for cross-platform colored terminal output
 init(autoreset=True)

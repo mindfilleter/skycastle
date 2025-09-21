@@ -3,15 +3,15 @@
 from typing import List, Tuple, Optional, Dict
 
 # Relative imports for GameState
-from ..gamestate import GameState, Item # Item added for type hinting in _get_item_by_name_fuzzy
+from skycastle.gamestate import GameState, Item # Item added for type hinting in _get_item_by_name_fuzzy
 # Relative import for UI functions
-from .. import ui
+from skycastle import ui
 
 # Import specific command handlers from submodules
-from . import navigation
-from . import interaction
-from . import puzzles
-from . import system
+from skycastle.game_commands import navigation
+from skycastle.game_commands import interaction
+from skycastle.game_commands import puzzles
+from skycastle.game_commands import system
 
 
 # --- Command Mapping for Synonyms and Aliases ---

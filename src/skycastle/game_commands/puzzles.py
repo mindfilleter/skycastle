@@ -4,9 +4,9 @@ from typing import List, Optional, Tuple # Ensure Tuple is imported
 # No longer directly using defaultdict in this file after refactor
 
 # Relative imports for GameState, Item, Exit, Puzzle dataclasses
-from ..gamestate import GameState, Item, Exit, Puzzle
+from skycastle.gamestate import GameState, Item, Exit, Puzzle
 # Relative import for UI functions
-from .. import ui
+from skycastle import ui
 # Import Style explicitly for ui.Style.BRIGHT usage in this file
 from colorama import Style
 

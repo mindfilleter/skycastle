@@ -10,7 +10,7 @@ from typing import List, Dict, Any, Optional
 from platformdirs import user_data_dir
 
 # Import GameState and its factory function
-from .gamestate import GameState, create_game_state_from_data
+from skycastle.gamestate import GameState, create_game_state_from_data
 
 # Define application information for platformdirs
 APP_NAME = "sky-castle-game"

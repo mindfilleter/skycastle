@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 from typing import Dict, List, Optional
 import json
 
-from . import worlddata
+from skycastle import worlddata
 
 # --- Data Classes for Game Objects ---
 
