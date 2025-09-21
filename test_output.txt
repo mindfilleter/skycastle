@@ -1,0 +1,430 @@
+Starting a new adventure in the Sky Castle...
+
+--- The Calling of the Sky Castle ---
+  The Sky Castle, a magnificent structure woven from memories and dreams, once
+  sparkled like a jewel suspended amongst the clouds. You remember your
+  father, a visionary architect, his eyes filled with the joy of creation,
+  always humming and planning, building your shared 'castle in the sky.' His
+  favorite song, 'Just the Two of Us,' was the very blueprint of his heart.
+  
+  But recently, the crystal raindrops have turned to tears, the rainbows
+  faded. Your father embarked on a final, grand project within the castle's
+  highest spires, and he has not returned. Days have blurred into nights, and
+  a quiet, unsettling silence has settled over the once vibrant halls.
+  
+  Determined, you've snuck into the entrance — the Crystal Atrium. You carry
+  with you the faint echo of his song and the unwavering belief that together,
+  you can make it if you try. Your quest is clear: find your father, bring his
+  dream back to life, and restore the sunshine to your Sky Castle.
+  "Good things might come to those who wait, but not for those who wait too
+  late."
+  You must go for all you know.
+
+
+
+Welcome to Sky Castle! You are in the Crystal Atrium.
+
+Crystal Atrium
+==============
+  You stand in the magnificent ***Crystal Atrium***, a soaring hall with walls
+  of shimmering, giant glass tears slowly descending. Sunlight filters
+  through, creating shifting patterns on the polished floor. To the north, a
+  vibrant glow pulses; to the east, you hear the rush of water.
+  Exits: North, East
+
+Rainbow Gallery
+===============
+  This circular ***Rainbow Gallery*** is adorned with numerous stained-glass
+  panels, but the light is diffuse and muted, lacking the vibrant spectrum
+  you'd expect. A path leads south, back to the atrium.
+  
+  You see: tuning fork
+  Exits: South
+You take the tuning fork.
+
+--- Your Inventory ---
+  - Tuning fork
+----------------------
+
+Crystal Atrium
+==============
+  You stand in the magnificent ***Crystal Atrium***, a soaring hall with walls
+  of shimmering, giant glass tears slowly descending. Sunlight filters
+  through, creating shifting patterns on the polished floor. To the north, a
+  vibrant glow pulses; to the east, you hear the rush of water.
+  Exits: North, East
+
+<<< You have solved: Attune the Crystals! >>>
+A path opens towards the west!
+
+Crystal Atrium
+==============
+  The Crystal Atrium now hums with a harmonious resonance. A shimmering
+  archway, previously unseen, has materialized to the west, beckoning you
+  forward.
+  Exits: North, East, West
+
+Crystal Atrium
+==============
+  The Crystal Atrium now hums with a harmonious resonance. A shimmering
+  archway, previously unseen, has materialized to the west, beckoning you
+  forward.
+  Exits: North, East, West
+
+Father's Study
+==============
+  This room, your ***Father's Study***, is cluttered with blueprints, notes,
+  and mementos. It feels filled with your father's presence, though he's not
+  here. A desk holds an open journal.
+  
+  You see: father's journal, fragmented blueprint piece 1, pocket mirror
+  Exits: East
+
+Father's Study
+==============
+  This room, your ***Father's Study***, is cluttered with blueprints, notes,
+  and mementos. It feels filled with your father's presence, though he's not
+  here. A desk holds an open journal.
+  
+  You see: father's journal, fragmented blueprint piece 1, pocket mirror
+  Exits: East
+You take the father's journal.
+You take the fragmented blueprint piece 1.
+You take the pocket mirror.
+
+--- Your Inventory ---
+  - Tuning fork
+  - Father's journal
+  - Fragmented blueprint piece 1
+  - Pocket mirror
+----------------------
+
+<<< You have solved: Decipher Father's Journal! >>>
+A path opens towards the north!
+
+Father's Study
+==============
+  Having pieced together some of your father's thoughts, the study seems to
+  hum with a clearer understanding. A previously unnoticed passage to the
+  north opens, leading towards the light.
+  Exits: East, North
+
+Father's Study
+==============
+  Having pieced together some of your father's thoughts, the study seems to
+  hum with a clearer understanding. A previously unnoticed passage to the
+  north opens, leading towards the light.
+  Exits: East, North
+
+Crystal Atrium
+==============
+  The Crystal Atrium now hums with a harmonious resonance. A shimmering
+  archway, previously unseen, has materialized to the west, beckoning you
+  forward.
+  Exits: North, East, West
+
+Wasted Waterworks
+=================
+  A vast, damp chamber, the ***Wasted Waterworks***, where strong currents of
+  water gush from high pipes, only to disappear uselessly into drains below.
+  No plant life can thrive here; the ground is barren and slick. West leads
+  back to the atrium.
+  
+  You see: water lever
+  Exits: West, North
+
+Wasted Waterworks
+=================
+  A vast, damp chamber, the ***Wasted Waterworks***, where strong currents of
+  water gush from high pipes, only to disappear uselessly into drains below.
+  No plant life can thrive here; the ground is barren and slick. West leads
+  back to the atrium.
+  
+  You see: water lever
+  Exits: West, North
+
+<<< You have solved: Divert the Water! >>>
+
+Wasted Waterworks
+=================
+  With a mighty grind, the water lever has been thrown! The gushing currents
+  now flow through an unseen channel, and the air here feels less frantic, as
+  if nature itself is preparing to make use of it.
+  
+  You see: water lever
+  Exits: West, North
+
+Wasted Waterworks
+=================
+  With a mighty grind, the water lever has been thrown! The gushing currents
+  now flow through an unseen channel, and the air here feels less frantic, as
+  if nature itself is preparing to make use of it.
+  
+  You see: water lever
+  Exits: West, North
+
+Garden of Patience
+==================
+  A tranquil ***Garden of Patience***, surprisingly untouched by the nearby
+  water's roar. The earth is rich, but most plants are dormant, waiting. A
+  winding path leads south.
+  Exits: South
+
+Garden of Patience
+==================
+  A tranquil ***Garden of Patience***, surprisingly untouched by the nearby
+  water's roar. The earth is rich, but most plants are dormant, waiting. A
+  winding path leads south.
+  Exits: South
+
+Wasted Waterworks
+=================
+  With a mighty grind, the water lever has been thrown! The gushing currents
+  now flow through an unseen channel, and the air here feels less frantic, as
+  if nature itself is preparing to make use of it.
+  
+  You see: water lever
+  Exits: West, North
+
+Crystal Atrium
+==============
+  The Crystal Atrium now hums with a harmonious resonance. A shimmering
+  archway, previously unseen, has materialized to the west, beckoning you
+  forward.
+  Exits: North, East, West
+
+Father's Study
+==============
+  Having pieced together some of your father's thoughts, the study seems to
+  hum with a clearer understanding. A previously unnoticed passage to the
+  north opens, leading towards the light.
+  Exits: East, North
+
+Dawning Outlook
+===============
+  A high, serene vantage point, the ***Dawning Outlook***, shrouded in a soft,
+  ethereal mist. From here, you can see parts of the castle sprawling below
+  and the distant glow of a towering spire. An empty vial sits on a
+  crystalline ledge. The air feels pregnant with possibility.
+  
+  You see: empty dewdrop vial, seed of unity
+  Exits: South, West, Southwest
+
+Dawning Outlook
+===============
+  A high, serene vantage point, the ***Dawning Outlook***, shrouded in a soft,
+  ethereal mist. From here, you can see parts of the castle sprawling below
+  and the distant glow of a towering spire. An empty vial sits on a
+  crystalline ledge. The air feels pregnant with possibility.
+  
+  You see: empty dewdrop vial, seed of unity
+  Exits: South, West, Southwest
+You take the empty dewdrop vial.
+You take the seed of unity.
+
+--- Your Inventory ---
+  - Tuning fork
+  - Father's journal
+  - Fragmented blueprint piece 1
+  - Pocket mirror
+  - Empty dewdrop vial
+  - Seed of unity
+----------------------
+
+<<< You have solved: Collect Morning Dew! >>>
+The empty dewdrop vial is consumed.
+You acquire a full dewdrop vial.
+
+Dawning Outlook
+===============
+  The Dawning Outlook feels lighter now that the essential dew has been
+  collected. The mist has thinned slightly, revealing more of the castle
+  spires.
+  Exits: South, West, Southwest
+
+Dawning Outlook
+===============
+  The Dawning Outlook feels lighter now that the essential dew has been
+  collected. The mist has thinned slightly, revealing more of the castle
+  spires.
+  Exits: South, West, Southwest
+
+Garden of Patience
+==================
+  A tranquil ***Garden of Patience***, surprisingly untouched by the nearby
+  water's roar. The earth is rich, but most plants are dormant, waiting. A
+  winding path leads south.
+  Exits: South
+
+Garden of Patience
+==================
+  A tranquil ***Garden of Patience***, surprisingly untouched by the nearby
+  water's roar. The earth is rich, but most plants are dormant, waiting. A
+  winding path leads south.
+  Exits: South
+
+<<< You have solved: Plant the Seed of Unity! >>>
+The seed of unity is consumed.
+
+Garden of Patience
+==================
+  A tiny, hopeful sprout now emerges where you planted the pearlescent seed.
+  It glows faintly, hinting at future growth.
+  Exits: South
+
+Garden of Patience
+==================
+  A tiny, hopeful sprout now emerges where you planted the pearlescent seed.
+  It glows faintly, hinting at future growth.
+  Exits: South
+
+<<< You have solved: Nurture the Sprout! >>>
+The full dewdrop vial is consumed.
+A path opens towards the east!
+
+Garden of Patience
+==================
+  The sprout has burst into a magnificent, luminescent flower, its petals
+  unfurling towards a newly revealed archway to the east, which shines
+  brightly and leads upwards.
+  Exits: South, East
+
+Garden of Patience
+==================
+  The sprout has burst into a magnificent, luminescent flower, its petals
+  unfurling towards a newly revealed archway to the east, which shines
+  brightly and leads upwards.
+  Exits: South, East
+
+Dawning Outlook
+===============
+  The Dawning Outlook feels lighter now that the essential dew has been
+  collected. The mist has thinned slightly, revealing more of the castle
+  spires.
+  Exits: South, West, Southwest
+
+Rainbow Gallery
+===============
+  This circular ***Rainbow Gallery*** is adorned with numerous stained-glass
+  panels, but the light is diffuse and muted, lacking the vibrant spectrum
+  you'd expect. A path leads south, back to the atrium.
+  Exits: South
+
+Rainbow Gallery
+===============
+  This circular ***Rainbow Gallery*** is adorned with numerous stained-glass
+  panels, but the light is diffuse and muted, lacking the vibrant spectrum
+  you'd expect. A path leads south, back to the atrium.
+  Exits: South
+
+<<< You have solved: Create the Rainbow! >>>
+A path opens towards the north!
+
+Rainbow Gallery
+===============
+  A dazzling, full rainbow now arcs across the gallery, illuminating a
+  previously hidden archway to the north with all its vibrant colors.
+  Exits: South, North
+
+Dawning Outlook
+===============
+  The Dawning Outlook feels lighter now that the essential dew has been
+  collected. The mist has thinned slightly, revealing more of the castle
+  spires.
+  Exits: South, West, Southwest
+
+<<< You have solved: Open Sky-High Summit! >>>
+A path opens towards the up!
+
+Dawning Outlook
+===============
+  A magnificent stairway of light now spirals upwards from the center of the
+  Dawning Outlook, leading directly to the Sky-High Summit! The air crackles
+  with joyful energy, a beacon of your journey's end.
+  Exits: South, West, Southwest, Up
+
+Dawning Outlook
+===============
+  A magnificent stairway of light now spirals upwards from the center of the
+  Dawning Outlook, leading directly to the Sky-High Summit! The air crackles
+  with joyful energy, a beacon of your journey's end.
+  Exits: South, West, Southwest, Up
+
+Sky-High Summit
+===============
+  This is the very pinnacle of the ***Sky-High Summit***, a grand, unfinished
+  workshop open to the expansive sky. Tools are scattered amongst blueprints,
+  and a profound sense of purpose fills the air. It feels like the culmination
+  of a lifelong project. You see a final piece of blueprint awaiting
+  completion.
+  
+  You see: fragmented blueprint piece 2
+  Exits: Down
+
+Sky-High Summit
+===============
+  This is the very pinnacle of the ***Sky-High Summit***, a grand, unfinished
+  workshop open to the expansive sky. Tools are scattered amongst blueprints,
+  and a profound sense of purpose fills the air. It feels like the culmination
+  of a lifelong project. You see a final piece of blueprint awaiting
+  completion.
+  
+  You see: fragmented blueprint piece 2
+  Exits: Down
+You take the fragmented blueprint piece 2.
+
+--- Your Inventory ---
+  - Tuning fork
+  - Father's journal
+  - Fragmented blueprint piece 1
+  - Pocket mirror
+  - Fragmented blueprint piece 2
+----------------------
+
+<<< You have solved: Assemble the Blueprint! >>>
+The fragmented blueprint piece 1 is consumed.
+The fragmented blueprint piece 2 is consumed.
+
+Sky-High Summit
+===============
+  With the blueprint pieces assembled, the final section of the Sky Castle
+  shimmers into existence. Your father is here, his face filled with relief
+  and love, gesturing to the magnificent view. You've found him! The journey
+  is complete.
+  Exits: Down
+  
+  =================================================================
+                    CONGRATULATIONS! YOU DID IT!
+  =================================================================
+  After a long and winding journey through the Sky Castle, you finally
+  reach the pinnacle. There, amidst scattered blueprints and tools,
+  you find your father! His face, initially etched with concentration,
+  breaks into a joyous smile as he sees you. The final piece of your
+  'Castle in the Sky' is complete, built not just from dreams, but from
+  your enduring bond. Together, you look out at the magnificent view,
+  just the two of you, having truly made it, trying.
+  
+  =================================================================
+  
+  
+  =================================================================
+  --------------------------  CREDITS  ---------------------------
+  =================================================================
+  
+                    Game Design & Development:
+                           [Your Name/Team]
+  
+                    Story Concept Inspired by:
+                     'Just the Two of Us' Lyrics
+                     (Bill Withers & Grover Washington, Jr.)
+  
+                       Special Thanks to:
+                         - The Python Community
+                         - Colorama & Platformdirs Libraries
+                         - Text Adventure Fans Everywhere
+  
+                    (C) 2025 Sky Castle Development
+  =================================================================
+  
+                Thank you for playing Sky Castle!
+  

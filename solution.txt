@@ -1,0 +1,104 @@
+# This file contains a sequence of commands to play Sky Castle from start to finish.
+# It's designed to be piped into the game when running in --test-mode.
+
+# Commands below assume starting a new game (handled by --test-mode automatically)
+# and acknowledging the intro text.
+
+# Acknowledge the intro sequence
+# The `get_player_input` in ui.py (when in test mode) reads a line,
+# so an empty line here acts as pressing Enter.
+# This first empty line handles the prompt at the end of display_intro_sequence().
+# It's important to have one blank line after "new game" is implicitly selected.
+
+
+# Automatically starts new game in test mode. Game state is at Crystal Atrium.
+# --------------------------------------------------------------------------
+
+# Acknowledge intro sequence
+# (The get_player_input in ui.py will read a line here to continue from intro)
+
+
+# Start at Crystal Atrium
+# -----------------------
+look # See initial room info
+
+# Go to Rainbow Gallery to get the Tuning Fork
+go north
+take tuning fork
+inventory # Check inventory
+go south # Back to Crystal Atrium
+
+# In Crystal Atrium: Use the Tuning Fork to Attune Crystals
+use tuning fork # Solves 'attune_crystals', unlocks west to Father's Study
+look # Room description should change, west exit should be available
+
+# Go to Father's Study to gather items and solve the journal puzzle
+go west
+look # See items in Study
+take father's journal
+take fragmented blueprint piece 1
+take pocket mirror
+inventory # Check inventory
+read father's journal # Solves 'decipher_journal', unlocks north to Dawning Outlook from Study
+look # Room description should change, north exit should be available
+
+# Go to Wasted Waterworks to divert water
+go east # To Crystal Atrium
+go east # To Wasted Waterworks
+look # See water lever
+use water lever # Solves 'divert_water'
+look # Room description should change
+
+# Go to Garden of Patience (from Wasted Waterworks)
+go north
+look # No items yet (seed will be used here), but prepared for planting
+
+# Go to Dawning Outlook (from Father's Study or Rainbow Gallery)
+# We are currently in Garden of Patience. Our path is:
+# Garden -> Wasted Waterworks -> Crystal Atrium -> Father's Study -> Dawning Outlook
+go south # Back to Wasted Waterworks
+go west # Back to Crystal Atrium
+go west # Back to Father's Study
+go north # To Dawning Outlook (unlocked by 'decipher_journal' from Father's Study)
+look # See items: empty dewdrop vial, seed of unity
+take empty dewdrop vial
+take seed of unity
+inventory # Check inventory
+
+# In Dawning Outlook: Collect Dew
+use empty dewdrop vial # Solves 'collect_dew', adds full dewdrop vial to inventory
+look # Room description should change subtly, inventory should have full vial
+
+# Go back to Garden of Patience to plant and nurture the seed
+go west # To Garden of Patience (unlocked by 'nurture_plant', or existing path in logic)
+look # See the prepared soil
+use seed of unity # Solves 'plant_seed'
+look # Room description should show a tiny sprout now
+use full dewdrop vial # Solves 'nurture_plant', unlocks east to Dawning Outlook from Garden
+look # Room description should have magnificent flower, east exit should be open
+
+# Go to Rainbow Gallery to create the rainbow
+go east # To Dawning Outlook (unlocked by 'nurture_plant' from Garden)
+go south # To Rainbow Gallery (always accessible from Dawning)
+look # See the panels
+use pocket mirror # Solves 'create_rainbow'. This puzzle also unlocks north to Dawning Outlook from Rainbow.
+
+# Return to Dawning Outlook to open the Sky-High Summit
+go north # To Dawning Outlook (newly unlocked path from Rainbow Gallery)
+activate # Solves 'open_summit', unlocks 'up' to Sky-High Summit. All other flags should be met.
+look # Room description should show staircase of light, 'up' exit should be available
+
+# Ascend to the Sky-High Summit and find father
+go up
+look # See blueprint piece, father should be implied/mentioned if puzzle description updates.
+take fragmented blueprint piece 2
+inventory # Check inventory for all blueprint pieces
+use fragmented blueprint piece 1 # Solves 'assemble_blueprint', triggers win condition
+
+# Acknowledge win screen and credits
+# (These will absorb input from any lines that follow in the test file)
+# The game's `get_player_input` calls for pausing. We provide empty lines here.
+
+
+# The pipeline will send an EOF after these commands, which our __main__.py
+# handles by automatically issuing a 'quit' to clean up.

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sky-castle-game"
+version = "0.1.0"
+description = "A text adventure game based on the lyrics of 'Just the Two of Us'."
+authors = ["Your Name <you@example.com>"] # Remember to change "Your Name" and "you@example.com"
+readme = "README.md"
+packages = [{include = "skycastle"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+colorama = "^0.4.6"
+platformdirs = "^3.10.0" # This is the added dependency for XDG compliance
+
+[tool.poetry.group.dev.dependencies]
+# Add development dependencies here if you need them, e.g., pytest, black, flake8
+# pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
