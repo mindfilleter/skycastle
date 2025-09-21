@@ -16,6 +16,8 @@ init(autoreset=True)
 
 # --- Global flag for color output control ---
 _ENABLE_COLOR: bool = True # Default to True for normal play
+COLOR_ERROR = Fore.RED # Define a standard color for error messages
+COLOR_WARNING = Fore.YELLOW # Define a standard color for warning messages
 
 def set_color_enabled(enabled: bool) -> None:
     """Sets whether color output should be enabled."""
