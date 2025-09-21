@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "skycastle"
-version = "0.1.3"
+version = "0.1.4"
 description = "A command-line text adventure where a young boy explores a fantastical, cloud-borne castle to find his lost father."
 authors = ["mindfilleter"]
 license = "MIT"
